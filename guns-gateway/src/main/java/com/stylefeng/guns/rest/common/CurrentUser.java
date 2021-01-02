@@ -12,7 +12,7 @@ public class CurrentUser {
   public static void saveUserInfo(String userId){
     threadLocal.set(userId);
   }
-  public static String getUsreInfo(){
+  public static String getUserInfo(){
     return threadLocal.get();
   }
 }

@@ -1,10 +1,8 @@
-package com.stylefeng.guns.api.user;
+package com.stylefeng.guns.api.user.vo;
 
 import java.io.Serializable;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 /**
  * @description:
@@ -12,10 +10,9 @@ import lombok.Setter;
  * @date:2020/12/12
  **/
 @Data
-@Getter
-@Setter
 public class UserInfoModel  implements Serializable{
 
+  private Integer uuid;
   private String username;
   private String nickname;
   private String email;
