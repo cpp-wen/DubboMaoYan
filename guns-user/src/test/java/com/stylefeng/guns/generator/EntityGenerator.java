@@ -51,7 +51,7 @@ public class EntityGenerator {
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("cp123456789");
-        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns_rest?autoReconnect=true&useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://127.0.0.1:3306/guns_rest?characterEncoding=utf8");
         mpg.setDataSource(dsc);
 
         // 策略配置
