@@ -1,6 +1,6 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocActorT;
+import com.stylefeng.guns.rest.common.persistence.model.MoocActorT;
 import com.baomidou.mybatisplus.service.IService;
 
 /**

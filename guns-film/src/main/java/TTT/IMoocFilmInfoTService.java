@@ -1,6 +1,6 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocFilmInfoT;
+import com.stylefeng.guns.rest.common.persistence.model.MoocFilmInfoT;
 import com.baomidou.mybatisplus.service.IService;
 
 /**

@@ -1,6 +1,6 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocFieldT;
+import com.stylefeng.guns.rest.common.persistence.model.MoocFieldT;
 import com.baomidou.mybatisplus.service.IService;
 
 /**

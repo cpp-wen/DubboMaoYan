@@ -1,6 +1,6 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocBannerT;
+import com.stylefeng.guns.rest.common.persistence.model.MoocBannerT;
 import com.baomidou.mybatisplus.service.IService;
 
 /**

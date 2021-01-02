@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocBannerT;
-import com.stylefeng.guns.rest.persistence.dao.MoocBannerTMapper;
-import TTT.IMoocBannerTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocBannerT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocBannerTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

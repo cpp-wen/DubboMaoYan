@@ -1,6 +1,6 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocYearDictT;
+import com.stylefeng.guns.rest.common.persistence.model.MoocYearDictT;
 import com.baomidou.mybatisplus.service.IService;
 
 /**

@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocYearDictT;
-import com.stylefeng.guns.rest.persistence.dao.MoocYearDictTMapper;
-import TTT.IMoocYearDictTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocYearDictT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocYearDictTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

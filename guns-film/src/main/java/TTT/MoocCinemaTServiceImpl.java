@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocCinemaT;
-import com.stylefeng.guns.rest.persistence.dao.MoocCinemaTMapper;
-import TTT.IMoocCinemaTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocCinemaT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocCinemaTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

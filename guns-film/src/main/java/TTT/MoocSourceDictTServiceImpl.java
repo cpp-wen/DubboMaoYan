@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocSourceDictT;
-import com.stylefeng.guns.rest.persistence.dao.MoocSourceDictTMapper;
-import TTT.IMoocSourceDictTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocSourceDictT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocSourceDictTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

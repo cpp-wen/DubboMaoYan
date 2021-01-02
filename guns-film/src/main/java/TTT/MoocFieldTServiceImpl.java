@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocFieldT;
-import com.stylefeng.guns.rest.persistence.dao.MoocFieldTMapper;
-import TTT.IMoocFieldTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocFieldT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocFieldTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

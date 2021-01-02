@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocAreaDictT;
-import com.stylefeng.guns.rest.persistence.dao.MoocAreaDictTMapper;
-import TTT.IMoocAreaDictTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocAreaDictT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocAreaDictTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

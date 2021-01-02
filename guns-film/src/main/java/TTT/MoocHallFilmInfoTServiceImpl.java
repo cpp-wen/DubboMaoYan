@@ -1,8 +1,7 @@
 package TTT;
 
-import com.stylefeng.guns.rest.persistence.model.MoocHallFilmInfoT;
-import com.stylefeng.guns.rest.persistence.dao.MoocHallFilmInfoTMapper;
-import TTT.IMoocHallFilmInfoTService;
+import com.stylefeng.guns.rest.common.persistence.model.MoocHallFilmInfoT;
+import com.stylefeng.guns.rest.common.persistence.dao.MoocHallFilmInfoTMapper;
 import com.baomidou.mybatisplus.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
