@@ -1,4 +1,4 @@
-package com.stylefeng.guns.rest.modular.auth.vo;
+package com.stylefeng.guns.rest.modular.vo;
 
 
 public class ResponseVO<M> {
