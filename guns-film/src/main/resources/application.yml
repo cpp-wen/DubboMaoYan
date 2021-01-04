@@ -10,7 +10,7 @@ jwt:
   md5-key: randomKey      #md5加密混淆key
 
 server:
-  port: 9000 #项目端口
+  port: 8084 #项目端口
 
 mybatis-plus:
   mapper-locations: classpath*:com/stylefeng/guns/rest/**/mapping/*.xml
@@ -32,6 +32,13 @@ spring:
       username: root
       password: cp123456789
       filters: log4j,wall,mergeStat
+  dubbo:
+    application: meeting-film
+    server: true
+    registry: zookeeper://localhost:2181
+    protocol:
+      name: dubbo
+      port: 20882
 
 logging:
   level.root: info
